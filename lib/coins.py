@@ -365,7 +365,7 @@ class MorningStar(ScryptMixin, Coin):
     P2PKH_VERBYTE = bytes.fromhex("35")
     P2SH_VERBYTES = [bytes.fromhex("70")]
     WIF_BYTE = bytes.fromhex("b5")
-    GENESIS_HASH = ('00000c5b679c8909d77eb04441cea8a8
+    GENESIS_HASH = ('00000c5b679c8909d77eb04441cea8a8'
                     '64b254c4c8ad0640be94f8f0dd8bb618')
     TX_COUNT = 23675
     TX_COUNT_HEIGHT = 22785
